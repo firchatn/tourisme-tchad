@@ -75,14 +75,13 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item">
-            <a href="../widgets.html" class="nav-link">
-              <i class="nav-icon fa fa-th"></i>
-              <p>
-                Agence
-              </p>
-            </a>
-          </li>
+          <li class="nav-item"><a href="<?= site_url('agence/index') ?>" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Agences</p></a></li>
+          <li class="nav-item"><a href="<?= site_url('compte/index') ?>" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Comptes</p></a></li>
+          <li class="nav-item"><a href="<?= site_url('contact/index') ?>" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Contacts</p></a></li>
+          <li class="nav-item"><a href="<?= site_url('hotels/index') ?>" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Hotels</p></a></li>
+          <li class="nav-item"><a href="<?= site_url('locationVoitures/index') ?>" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Locations Voitures</p></a></li>
+          <li class="nav-item"><a href="<?= site_url('offreVoyages/index') ?>" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Offres Voyage</p></a></li>
+          <li class="nav-item"><a href="<?= site_url('siteTouristique/index') ?>" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Sites Touristiques</p></a></li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

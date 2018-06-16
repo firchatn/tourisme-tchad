@@ -25,6 +25,10 @@ $useKint = false;
  */
 
 // running under Continuous Integration server?
+define("ENVIRONMENT", "development");
+define("CI_ENV", "development");
+define("CI_VERSION", "4.0-dev");
+/*
 if (getenv('CI') !== false)
 {
 	define('ENVIRONMENT', 'testing');
@@ -33,6 +37,7 @@ else
 {
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production');
 }
+ */
 
 /*
  *---------------------------------------------------------------

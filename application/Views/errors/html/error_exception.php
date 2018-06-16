@@ -267,7 +267,7 @@
 
 				<?php $headers = $request->getHeaders(); ?>
 				<?php if (! empty($headers)) : ?>
-					<?php natsort($headers) ?>
+					<?php //natsort($headers) ?>
 
 					<h3>Headers</h3>
 

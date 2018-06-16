@@ -204,7 +204,7 @@ class BaseBuilder
 	 * @param array $options
 	 * @throws DatabaseException
 	 */
-	public function __construct($tableName, ConnectionInterface &$db, array $options = null)
+	public function __construct($tableName, ConnectionInterface &$db, array $options = [])
 	{
 		if (empty($tableName))
 		{
